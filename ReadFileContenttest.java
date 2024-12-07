@@ -10,9 +10,9 @@ public class ReadFileContenttest {
         String filename = "testfile.txt";
         String content = "Chrome Heart";
 
-        FileUtility.createAndSaveFile(filename, content);
+        ReadFile.createAndSaveFile(filename, content);
 
-        String actualContent = FileUtility.readFileContent(filename);
+        String actualContent = ReadFile.readFileContent(filename);
 
         assertEquals(content, actualContent, "The file content should match the written content");
 
