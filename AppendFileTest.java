@@ -11,9 +11,9 @@ public class AppendFileTest {
         String initialContent = "Summer Walker";
         String appendContent = " Appended text.";
 
-        ReadFile.createAndSaveFile(filename, initialContent);
+        AppendFile.createAndSaveFile(filename, initialContent);
 
-        ReadFile.appendToFile(filename, appendContent);
+        AppendFile.appendToFile(filename, appendContent);
 
         String actualContent = ReadFile.readFileContent(filename);
 

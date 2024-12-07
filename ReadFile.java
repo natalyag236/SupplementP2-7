@@ -34,4 +34,8 @@ public class ReadFile {
             writer.write(content);
         }
     }
+    public static void appendToFile(String filename, String appendContent) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'appendToFile'");
+    }
 }
