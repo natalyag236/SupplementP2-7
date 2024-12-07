@@ -12,7 +12,6 @@ public class AppendFile {
 
         return Files.readString(filePath, StandardCharsets.UTF_8);
     }
-
     public static void createAndSaveFile(String filename, String content) throws IOException {
         Path filePath = Path.of(filename);
 
